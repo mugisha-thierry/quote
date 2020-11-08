@@ -1,0 +1,17 @@
+.row{
+    padding-top: 20px;
+    padding-left: 20px;
+    scroll-padding-right: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    padding-top: 20px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: royalblue;
+}
+h2{
+    color:red;
+}
+h5{
+    font-family: 'Lobster', cursive;
+}
