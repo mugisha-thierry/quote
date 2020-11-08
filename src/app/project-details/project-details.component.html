@@ -1,0 +1,7 @@
+<P style="margin-left: 50px;"> Author: {{quote.author}}</P>
+<p style="margin-left: 50px;"> publisher: {{quote.publisher}}</p>
+<p style="margin-left: 50px;"> published date: {{quote.completeDate | date}}</p>
+<button (click)='like()' type="button" class="btn btn-outline-success"><i class="fas fa-thumbs-up"></i>{{quote.like}}</button>
+                  <button  (click)='dislike()' type="button" class="btn btn-outline-danger"><i class="fas fa-thumbs-down"></i>{{quote.dislike}}</button><br>
+
+<button (click)='goalComplete(true)'type="button" class="btn btn-outline-danger" >Delete quote</button>

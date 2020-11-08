@@ -1,0 +1,26 @@
+<form (ngSubmit)='quoteSubmit()' #quoteForm='ngForm'>
+    <div class="form-group">
+      <label>Author</label>
+      <input type="text"  class="form-control"  placeholder="Author name" id="author" [(ngModel)]="newQuote.author" name="author"  required>
+     
+
+    </div>
+    <div class="form-group">
+      <label>Quote</label>
+      <input type="text"  class="form-control" placeholder="write your quote here" id="quote" [(ngModel)]="newQuote.quote" name="quote" required>
+      
+    </div>
+    <div class="form-group">
+      <label>Publisher</label>
+      <input type="text"  class="form-control"  placeholder="Publisher name" id="publisher" [(ngModel)]="newQuote.publisher" name="publisher" required>
+    </div>
+    <div class="form-group">
+      <label>Published date</label>
+      <input type="date" id="completeDate" [(ngModel)]="newQuote.completeDate" name="completeDate" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Post your Quote</button>
+  </form>
+  <hr>
+  <div>
+    <img src="https://skyprep.com/wp-content/uploads/2013/07/Alfred_Quotes1.jpg" class="card-img-top" alt="...">
+  </div>
