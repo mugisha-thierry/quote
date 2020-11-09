@@ -4,7 +4,7 @@
 This project allows a user to read quotes and create his quotes.
 
 ## Author
-MUGISHA Thierry
+MUGISHA Thierry student from Moringa School
 ---
 ## Development server
 
