@@ -2,7 +2,9 @@
 
 
 This project allows a user to read quotes and create his quotes.
-
+---
+This is the link to the project:
+https://mugisha-thierry.github.io/quote/
 ## Author
 MUGISHA Thierry student from Moringa School
 ---
